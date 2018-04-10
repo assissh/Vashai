@@ -1,0 +1,14 @@
+<h1>Please Fill Your Interest  :{{ user.username }}</h1>
+<form method='POST' action=''>{% csrf_token %}
+
+    <div class="form-group">
+<h2>Categories</h2>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+    {{ form.as_p }}
+    <button type="submit">Submit</button>
+
+    </form>
+</div>

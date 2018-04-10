@@ -1,0 +1,10 @@
+
+<div class="container">
+<h1>Login Here</h1>
+    {% csrf_token %}
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="Submit">Submit</button>
+</form>
+    </div>

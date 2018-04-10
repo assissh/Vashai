@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>unsubscribe</title>
+    </head>
+    <body>
+        <h1>Unsubscribe from Newsletter</h1>
+        <form method="post">{% csrf_token %}
+            {{ form }}
+            <button type="submit">Unsubscribe</button>
+
+        </form>
+
+    </body>
+</html>
